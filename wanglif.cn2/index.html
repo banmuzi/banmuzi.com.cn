@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>王丽芬作品集</title>
+    <meta name="description" content=""/>
+    <meta name="Keywords" content=""/>
+    <link rel="stylesheet" type="text/css" href="css/swiper-3.4.0.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css"/>
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/resive.css"/>
+    <!--[if lt IE 9 ]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <script src="js/three.min.js"></script>
+    <script src="js/detector.js"></script>
+    <script src="js/canvasrenderer.js"></script>
+    <script src="js/projector.js"></script>
+    <script src="https://common.8864.com/web/js/jquery/jquery-1.12.0.min.js"></script>
+    <script src="https://common.8864.com/web/plugins/swiper/swiper.jquery.min.js"></script>
+    <script src="js/echarts.js"></script>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/index_star.js"></script>
+    <script src="js/jQueryfullpage.js"></script>
+    <script src="js/resive.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+
+
+
+
+<header>
+    <firgure class="logo">
+        <a href="index.html"><img src="images/img/logo.png"/></a>
+    </firgure>
+    <div class="miscellaneous">
+
+        <div class="language">
+	 	  	 <span>
+	 	  	 	 <a href="index.html">CN</a>
+	 	  	 	 <a href="">EN</a>
+				 <a href="">KOR</a>
+	 	  	 </span>
+            <i class="iconfont">&#xe609;</i>
+        </div>
+
+
+    </div>
+    <div class="menu-big">
+        <img src="images/img/menu.png">
+    </div>
+    <div class="con-menu">
+        <div class="menu-switch">
+            <div class="sw2">
+                <img src="images/img/colse.png">
+                <div class="menu">
+                    <ul>
+                        <li class="currentli1"><a href="index.html"> 首&nbsp &nbsp &nbsp页</a></li>
+                        <li><a href="about/index.htm"> 关&nbsp于&nbsp我</a></li>
+                        <li><a href="works/index.htm"> 作品展示</a></li>
+                        <li><a href="news/index.html"> 项目经验</a></li>
+                        <li><a href="contact/index.htm"> 与我联系</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+
+        $(".con-menu").hide();
+
+
+        //鼠标经过menu-big 时触发事件
+
+        $(".menu-big").mouseover(function () {
+
+            $(".con-menu").show();
+
+            $(".menu-big").hide();
+
+        });
+
+
+        $(".con-menu").mouseleave(function () {
+
+
+            $(".con-menu").hide();
+            $(".menu-big").show();
+
+        })
+
+
+    </script>
+
+
+</header>
+
+<div class="phoneNav">
+
+
+    <div class="langpho">
+        <a href="index.htm">CN</a>
+
+        <a href="">EN</a>
+
+        <a href="">KOR</a>
+    </div>
+</div>
+
+
+<div id="dowebok">
+    <div class="section section1">
+        <section class="totalTit">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="waperlines">
+                <path class="sublines sublinesA pcsvg" d="M600,2 2,2 2,305"/>
+                <path class="sublines sublinesB pcsvg" d="M600,2 1198,2 1198,305"/>
+                <path class="sublines sublinesc pcsvg" d="M600,608 2,608 2,305"/>
+                <path class="sublines sublinesD pcsvg" d="M600,608 1198,608 1198,305"/>
+                <path class="sublines sublinesA phonesvg" d="M300,2 2,2 2,305"/>
+                <path class="sublines sublinesB phonesvg" d="M300,2 598,2 598,305"/>
+                <path class="sublines sublinesc phonesvg" d="M300,608 2,608 2,305"/>
+                <path class="sublines sublinesD phonesvg" d="M300,608 598,608 598,305"/>
+            </svg>
+            <div class="worlds worlds1 ctx_out">
+                <div class="op">&nbsp;</div>
+            </div>
+            <div class="worlds worlds2 ctx_in">
+                <div class="aq aq1">&nbsp;</div>
+                <div class="aq aq2">&nbsp;</div>
+                <div class="aq aq3">&nbsp;</div>
+                <div class="aq aq4">&nbsp;</div>
+            </div>
+            <div class="pictures"><img src="images/img/page1-img.png"/></div>
+        </section>
+        <div class="nextscreen"><a href="#services"><img src="images/img/nextscreen.png"/></a></div>
+        <div class="canvasMain">
+            <div class="stars" id="stars">&nbsp;</div>
+        </div>
+    </div>
+
+    <div class="section section2">
+        <section class="aboutclmax">
+            <div class="imglogo"><img src="images/page2-logs.jpg"/>
+                <div class="text">
+                    <p><font>ABOUT</font> <strong>ME</strong></p>
+                </div>
+                <svg version="1.1" class="page2line">
+                    <path class="subpage subpageA" d="M140,228 2,228 2,2 140,2"></path>
+                    <path class="subpage subpageB" d="M140,228 278,228 278,2 140,2"></path>
+                </svg>
+            </div>
+
+
+            <p>
+                <article class="aboutTxt">
+            <p>设计是专业的，逗逼是认真的，我是个会设计会代码的的四川妹子，一个对设计
+                有较强学习欲望的“神经病”
+            </p>
+            <p>平时喜欢看书、运动、研究新事物，做事喜欢用心经营</p>
+            </article></p>
+            <div class="IndexList">
+                <ul>
+                    <li><b> <em class="nub">2015</em></b> <span class="pd"><p>水媒天下（北京）环境科技有限公司</p><p><a>网页设计</a></p></span>
+                    </li>
+                    <li><b> <em class="nub">2016</em></b> <span class="pd"><p>水媒天下（北京）环境科技有限公司<</p><p><a>UI设计</a></p></span>
+                    </li>
+                    <li><b> <em class="nub">2017</em></b> <span
+                            class="pd"><p>今日幸福(天津)移动网络科技发展有限公司</p><p><a>UI设计</a></p></span></li>
+                    <li><b> <em class="nub">2018</em></b><span
+                            class="pd"><p>今日幸福(天津)移动网络科技发展有限公司</p><p><a>UI设计</a></p></span></li>
+                </ul>
+            </div>
+        </section>
+        <div class="nextscreen"><a href="#cases"><img src="images/img/nextscreen.png"/></a></div>
+    </div>
+
+    <div class="section section3">
+        <section class="waperTit">
+            <h3>作品展示</h3>
+
+            <i>&nbsp;</i>
+        </section>
+        <section class="theMoves">
+            <div class="swiper-container moviesPhoto">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <article class="neislide">
+                            <img src=" images/app.jpg"/>
+                            <div class="morbox">
+                                <div class="sub">
+                                    <h4>《APP案例》</h4>
+                                    <font></font>
+                                    <a href="works/index.htm">See more</a>
+
+
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="neislide">
+                            <img src="images/icon1.jpg"/>
+                            <div class="morbox">
+                                <div class="sub">
+                                    <h4>《icon案例》</h4>
+                                    <font>Detailed introduction</font>
+                                    <a href="works/index.htm">See more</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="neislide">
+                            <img src="images/wy.jpg"/>
+                            <div class="morbox">
+                                <div class="sub">
+                                    <h4>《网页案例》</h4>
+                                    <font></font>
+                                    <a href="works/index.htm">See more</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="neislide">
+                            <img src="images/pm.jpg"/>
+                            <div class="morbox">
+                                <div class="sub">
+                                    <h4>《平面案例》</h4>
+                                    <font></font>
+                                    <a href="works/index.htm">See more</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="neislide">
+                            <img src="images/icon1.jpg"/>
+                            <div class="morbox">
+                                <div class="sub">
+                                    <h4>《其他》</h4>
+                                    <font></font>
+                                    <a href="works/index.htm">See more</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+            <div class="swiper-button-prev mov-prev"></div>
+            <div class="swiper-button-next mov-next"></div>
+        </section>
+        <div class="nextscreen"><a href="#news"><img src="images/img/nextscreen.png"/></a></div>
+    </div>
+
+    <div class="section section4"  >
+
+        <section class="waperTit" style="margin-right: auto;margin-left: auto" >
+
+            <h3>我的技能</h3>
+
+            <i>&nbsp;</i>
+        </section>
+        <div id="main" style="width: 1000px;height:500px;position:absolute;top:100px;left:50%;margin-left:-500px;"></div>
+        <script type="text/javascript">
+            // 基于准备好的dom，初始化echarts实例
+            var myChart = echarts.init(document.getElementById('main'));
+
+            // 指定图表的配置项和数据
+
+
+            option = {
+                color:  ['#ffffff'],//here'
+                tooltip: {
+                    trigger: 'axis',
+                    axisPointer: {            // 坐标轴指示器，坐标轴触发有效
+                        type: 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+                    }
+                },
+                grid: {
+                    left: '0',
+                    right: '0',
+                    bottom: '0',
+
+                    containLabel: true
+
+                },
+                xAxis: [
+                    {
+
+                        type: 'category',
+                        data: ['Ps', 'Ai', 'In', 'Fl', 'Ax', 'Ae', 'Ws'],
+                        axisTick: {
+                            alignWithLabel: true
+                        },
+                        axisLine: {
+                            lineStyle:{
+                                color: '#b3b3b3'
+                            }
+
+                        },
+
+                    }
+                ],
+                yAxis: [
+                    {
+                        type: 'value',
+                        axisLine: {
+                            lineStyle:{
+                                color: '#b3b3b3'
+                            }
+
+                        },
+
+
+                    }
+                ],
+
+                series: [
+                    {
+                        color: ['#ffffff'],
+                        name: '熟悉度',
+                        type: 'bar',
+                        barWidth: '45%',
+                        data: [90, 90, 90, 90, 95, 90, 90],//here
+                    }
+                ]
+            };
+
+
+            // 使用刚指定的配置项和数据显示图表。
+            myChart.setOption(option);
+        </script>
+
+
+    </div>
+
+
+    <div class="section section6" >
+        <section class="waperTit">
+            <h3>工作经验</h3>
+
+            <i>&nbsp;</i>
+        </section>
+        <section class="ourNews">
+            <article class="left_news_cont">
+                <dl>
+                    <dt><img src="images/jy.jpg"/></dt>
+                    <dd>
+                        <h3>香港中佳信科技发展有限公司</h3>
+                        <time>2014-09~2015-06</time>
+                        <p>负责公司平面设计，承接业务包括海波、折页、banner设计
+                        </p>
+                        <a href="news/index.html">more+</a>
+                    </dd>
+                </dl>
+
+            </article>
+
+            <article class="right_list_cont">
+                <div class="swiper-container newList">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <ul>
+                                <li>
+                                    <a href="news/2017/0724/268.html">
+                                        <time>2016-3~至今</time>
+                                        <p>今日幸福(天津)移动网络科技发展有限公司</p>
+                                        <i class="iconfont">&#xe63f;</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="news/2016/1209/51.html">
+                                        <time>2015-07~2016-3</time>
+                                        <p>水媒天下（北京）环境科技有限公司</p>
+                                        <i class="iconfont">&#xe63f;</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="news/2016/1209/49.html">
+                                        <time>2014-09~2015-06</time>
+                                        <p>北京千荣聚科技开发有限公司</p>
+                                        <i class="iconfont">&#xe63f;</i>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+
+                    </div>
+                    <div class="swiper-pagination newFyq"></div>
+                </div>
+                <div class="swiper-button-prev news-prev"></div>
+                <div class="swiper-button-next news-next"></div>
+            </article>
+        </section>
+        <div class="nextscreen"><a href="#footer"><img src="images/img/nextscreen.png"/></a>
+        </div>
+    </div>
+
+    <div class="section section7" >
+        <section class="waperTit">
+            <h3>欢迎与我联系</h3>
+
+            <i>&nbsp;</i>
+        </section>
+        <section class="aboutUs">
+
+            <ul>
+                <li>
+                    <article><i class="iconfont"></i> <font>addres</font> <span>北京市大兴区<br/>
+   		   	 		</span></article>
+                </li>
+                <li>
+                    <article><i class="iconfont"></i> <font>phone</font> <span>13522039746</span></article>
+                </li>
+                <li>
+                    <article><i class="iconfont"></i> <font>website</font> <span>http://www.wanglif.cn</span></article>
+                </li>
+                <li>
+                    <article><i class="iconfont"></i> <font>e-mail</font> <span>1391406640@qq.com</span></article>
+                </li>
+            </ul>
+
+
+            <div class="swiper-container contch">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <article>
+                            <i class="iconfont">&#xe641;</i>
+                            <font>addres</font>
+                            <span>北京市大兴区<br/>
+
+							   	 		</span>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article>
+                            <i class="iconfont">&#xe62e;</i>
+                            <font>phone</font>
+                            <span>13522039746</span>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article>
+                            <i class="iconfont">&#xe667;</i>
+                            <font>website</font>
+                            <span>http://www.wlf.cn</span>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article>
+                            <i class="iconfont">&#xe70f;</i>
+                            <font>e-mail</font>
+                            <span>1391406640@qq.com</span>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="qrCode">
+            <a href="contact/index.htm"  class="opportunity ">与我联系</a>
+            <img src="images/img/ew.png">
+        </section>
+    </div>
+
+    <div class="section section8 fp-auto-height">
+
+        <footer>
+            <article class="topfoot">
+                <div class="news">
+                    <span>我的动态</span>
+                    <a href="news/index.html"
+                       class="iconfont">&#xe71c;</a>
+                </div>
+
+            </article>
+            <article class="bomfoot">
+                <div class="bomnav">
+                    <p>
+                        <a href="works/index.htm" >我的作品</a>
+                        <span>/</span>
+
+
+                        <a href="about/index.htm" >关于我</a>
+                        <span>/</span>
+
+
+
+
+                        <a href="contact/index.htm">与我联系</a>
+
+
+                    </p>
+
+                </div>
+                <div class="share bdsharebuttonbox">
+                    <strong style="float:left;">分享到：</strong>
+                    <a href="" style="background:none;" class="iconfont bds_tsina" data-cmd="tsina">&#xe661;</a>
+                    <a href="" style="background:none;" class="iconfont bds_weixin" data-cmd="weixin">&#xe66f;</a>
+                    <a href="" style="background:none;" class="iconfont bds_sqq" data-cmd="sqq">&#xe604;</a>
+
+                    <script>window._bd_share_config = {
+                        "common": {
+                            "bdSnsKey": {},
+                            "bdText": "",
+                            "bdMini": "2",
+                            "bdMiniList": false,
+                            "bdPic": "",
+                            "bdStyle": "0",
+                            "bdSize": "16"
+                        }, "share": {}
+                    };
+                    with (document)0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
+
+
+                </div>
+            </article>
+        </footer>
+    </div>
+</div>
+
+
+
+</body>
+
+</html>

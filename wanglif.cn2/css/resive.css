@@ -1,0 +1,375 @@
+@media only screen and ( max-device-width: 1600px) {
+	header .miscellaneous .stock {
+		margin-right: 150px;
+	}
+	div.phoneNav nav a {
+		padding: 0.5% 0;
+		font-size: 16px;
+	}
+	.history,
+	div.phoneNav .gb {
+		transform: scale(0.7);
+		-webkit-transform: scale(0.7);
+		-moz-transform: scale(0.7);
+	}
+	.nextscreen,
+	.totalTit {
+		transform: scale(0.5);
+		-webkit-transform: scale(0.5);
+		-moz-transform: scale(0.5);
+	}
+	
+	.starphoto2,
+	.moviesPhoto2,
+	.investoRemove,
+	.boxteam,
+	.startPeoples2,
+	.startPeoples,
+	.waperTit,
+	.contsabout,
+	.ourNews,
+	.section7 .qrCode,
+	.section7 .aboutUs,
+	.teamPhoto,
+	.aboutclmax {
+		transform: scale(0.65);
+		-webkit-transform: scale(0.65);
+		-moz-transform: scale(0.65);
+	}
+	
+	.waperTit{ top: 5%;}
+	
+	.moviesPhoto2{ margin-top: -90px;}
+	.starphoto2{ margin-top: -45px;}
+	.investoRemove{ margin-top: 74px;}
+	.investoRemove li strong{ border-width: 2px;}
+	.newContchs .centerConts,
+	.ourReams{
+		transform: scale(0.9);
+		-webkit-transform: scale(0.9);
+		-moz-transform: scale(0.9);	
+	}
+	.imglogo{
+		transform: scale(0.75);
+		-webkit-transform: scale(0.75);
+		-moz-transform: scale(0.75);	
+	}
+	
+	.aboutTxt {
+		margin-top: -10px;
+		transform: scale(1.2);
+		-webkit-transform: scale(1.2);
+		-moz-transform: scale(1.2);
+	}
+	.starPeople.active,
+	.theMoves.active {
+		transform: translateY(0px) scale(0.65);
+		-moz-transform: translateY(0px) scale(0.65);
+		-webkit-transform: translateY(0px) scale(0.65);
+	}
+	.manyLogo,
+	.workJob{
+		transform: translateY(-50%) scale(0.65);
+		-moz-transform: translateY(-50%) scale(0.65);
+		-webkit-transform: translateY(-50%) scale(0.65)
+	}
+	.section7 .qrCode {
+		bottom: -25px;
+		transform: scale(0.33);
+		-webkit-transform: scale(0.33);
+		-moz-transform: scale(0.33);
+	}
+ 	.banners .screntTit{ top: 35%;}
+ 	
+ 	
+ 	/*字体微调*/
+ 	.moviesPhoto .swiper-slide .neislide .morbox .sub a,
+ 	header .miscellaneous .stock{ border-width: 2px;}
+ 	.moviesPhoto .swiper-slide .neislide .morbox .sub font{font-size: 14px;}
+ 	.moviesPhoto .swiper-slide .neislide .morbox .sub a{ width: 120px; height: 48px; line-height: 48px; font-size: 14px;}
+ 	.starPeople .starphoto .mores font.name strong{ font-size: 17px;}
+ 	.starPeople .starphoto .mores font.name small{ font-size:15px;}
+ 	.starPeople .starphoto .textg font{ font-size: 14px;}
+ 	
+ 	.aboutUs ul li span,
+ 	.ourNews .right_list_cont .newList ul li p,
+ 	.ourNews .left_news_cont dl dd p{ font-size: 17px;}
+ 	 .investoRemove li time,
+ 	.investoRemove li strong,
+ 	.investoRemove li font,
+ 	.workJob .leftTit p,
+ 	.workJob .rightCont p,
+ 	.contsabout .contUs span,
+ 	.theTeam dl dd p,
+ 	.waperTit p{ font-size: 18px;}
+ 	.ourNews .right_list_cont .newList ul li i{ top: 18px;}
+ 	.fy .tp a{ border-width: 2px;}
+ 	footer .topfoot{ padding-top: 0;}
+ 	footer .bomfoot{ padding-bottom: 0;}
+ 	.history{ top: 40%;}
+ 	.smlHistory .hisbox1 i{ top: -12px;}
+ 	.smlHistory .hisbox2 i{ top: 129px;}
+}
+
+@media only screen and ( max-device-width: 1440px) {
+	.controlJ,
+	.controlI,
+	.controlF{ height: 800px !important;}
+	.thepeople{ height: 360px; overflow-x: auto;}
+}
+
+
+
+@media only screen and ( max-device-width: 768px) {
+	div.phoneNav nav a {
+		padding: 2.5% 0;
+	}
+	.langpho{ display: block;}
+	#fp-nav{ display: none;}
+	header .miscellaneous .stock{ display: none;}
+	
+	.totalTit{ width: 600px; margin-left: -300px;}
+	.totalTit .waperlines{ width: 100%;}
+	
+	
+	.totalTit.acitve .waperlines .sublines.pcsvg{ display:none;}
+	.totalTit.acitve .waperlines .sublines.phonesvg{ display: block !important;}
+	
+	.totalTit .worlds .aq,
+	.totalTit .worlds .op{ background-size: 100% 100% !important;}
+	.totalTit .worlds{ width: 90%; left: 50%; margin-left: -45%;}
+	
+	.IndexList{ width: 100%;}
+	.nub{ font-size: 42px;}
+	.IndexList li span{ height: 15px; overflow: hidden;}
+	.aboutTxt{ width: 80%; display: inline-block;}
+	.moviesPhoto .swiper-slide:nth-of-type(odd) .neislide{ 
+		transform: translateY(0px);
+		-webkit-transform: translateY(0px);
+		-moz-transform: translateY(0px);
+	}
+	
+	.newList .newFyq{ background-color: rgba(255,255,255,0.3);}
+	
+	.teamPhoto .team-prev, 
+	.starPeople .star-prev, 
+	.theMoves .mov-prev{ left: -40px;}
+	.teamPhoto .team-next, 
+	.starPeople .star-next,
+	.theMoves .mov-next{ right: -40px;}
+	
+	.ourNews .left_news_cont{ display: none;}
+	
+	.aboutUs,
+	.ourNews,
+	.teamPhoto,
+	.starPeople,
+	.theMoves,
+	.aboutclmax{ width: 470px; margin-left: -235px;}
+	.controlG{ height: 163px !important; background-size: 100% auto; background-position: left top !important;}
+	.newFyq  .swiper-pagination-bullet-active{ background-color: #FFC012;}
+	
+	.aboutUs{ height: 275px;}
+	.aboutUs .neiss{ width: 100%; height: 100%; overflow-x: auto;}
+	
+	.aboutUs ul{ width: 1900px; height: auto; display: none;}
+	.aboutUs ul li{ width: 328px; height: 260px;}
+	
+	footer .bomfoot .share,
+	footer .topfoot{ display: none;}
+	
+	footer .bomfoot .bomnav{ padding: 20px 0;}
+	footer .bomfoot .bomnav p:first-child{ display: none;}
+	
+	header{ width: 100% !important; zoom: 1 !important;}
+	header .logo{ margin-left: 12px;}
+	header .logo img{ height: 30px;}
+	header .miscellaneous{ margin-right: 0;}
+	header .miscellaneous .language{ display: none;}
+	header .miscellaneous .menus{ margin-right: 12px}
+	
+	.waperTit2{ top: 0%;}
+	.waperTit2 i{ margin-top: 5px;}
+	
+	
+  	/*.control{ background-size: 100% 100%;}*/
+  	
+	.controlI,
+	.controlF ,
+	.controlJ{
+		height: auto !important;
+	}
+	
+	.startPeoples2, 
+	.startPeoples{ position: relative; width: 310px; margin-left: -155px; top: auto; margin-top: 75px; padding-bottom: 50px; display: table;
+	 	transform: scale(1.0);
+	 	-webkit-transform: scale(1.0);
+	 	-moz-transform: scale(1.0);
+	}
+	.startPeoples ul li.ig1,
+	.startPeoples ul li.ig2,
+	.startPeoples ul li.ig3,
+	.startPeoples2 ul li.ig1,
+	.startPeoples2 ul li.ig3,
+	.startPeoples2 ul li.ig2{
+		width: 48%;
+		height: 215px;
+	}
+	
+	.startPeoples2, 
+	.startPeoples{
+		height: auto; 
+	}
+	.startPeoples ul li,
+	.startPeoples2 ul li{ margin-left: 4px; margin-bottom: 10px; overflow: hidden;}
+	
+	.startPeoples ul li:nth-of-type(even),
+	.startPeoples2 ul li:nth-of-type(even){ margin-right: 0;}
+	
+	.startPeoples ul li img,
+	.startPeoples2 ul li img{ width: 100%; height: 100%;}
+	
+	.startPeoples ul li:nth-of-type(7),
+	.startPeoples2 ul li:nth-of-type(7){ margin-right: auto;}
+	
+	
+	.startPeoples ul li:nth-of-type(n+16),
+	.startPeoples ul li:nth-of-type(n+13),
+	.startPeoples ul li:nth-of-type(12),
+	.startPeoples ul li:nth-of-type(11), 
+	.startPeoples ul li:nth-of-type(10), 
+	.startPeoples ul li:nth-of-type(9), 
+	.startPeoples ul li:nth-of-type(8),
+	.startPeoples2 ul li:nth-of-type(n+14),
+	.startPeoples2 ul li:nth-of-type(13), 
+	.startPeoples2 ul li:nth-of-type(12), 
+	.startPeoples2 ul li:nth-of-type(11), 
+	.startPeoples2 ul li:nth-of-type(10), 
+	.startPeoples2 ul li:nth-of-type(9), 
+	.startPeoples2 ul li:nth-of-type(8){
+		transform: translateY(0px) translateX(0px);
+		-webkit-transform: translateY(0px) translateX(0px);
+		-moz-transform: translateY(0px) translateX(0px);
+	}
+    
+    .startPeoples ul li:nth-of-type(19){ float: left;}
+	
+	
+	.thepeople{ width: 310px; margin-left: -155px;}
+	.moviecont{ width: 100%; margin-left: 0; padding-top: 50px;}
+	.thepeople2 .lft-pro-img img{ height: 385px;}
+	.thepeople .subpeople .lft-pro-img:after{ right: -20px;}
+	
+	
+	.peopleVip{ right: 1%; width: 310px;
+		/* left: 50%; margin-left: -155px;*/
+	    transform: translateY(-40%) scale(0.5);
+	    -webkit-transform: translateY(-40%) scale(0.5);
+	    -moz-transform: translateY(-40%) scale(0.5);
+	}
+	.peopleVip h2{ padding-bottom: 15px; margin-bottom: 15px;}
+	
+	.thepeople .subpeople .lft-pro-img img{ height: 270px;}
+	.thepeople .subpeople table{ margin-left: 0;}
+	
+	.aboutsub{ width: 310px; margin-left: -155px;}
+	
+	
+	.boxteam{ width: 500px; margin-left: -250px; top: 45%;}
+	.theTeam dl{ text-align: center;}
+	.theTeam dl dt img{ width: 250px; height: auto;}
+	.theTeam dl dd{ width: 100%; height: 185px; margin-left: 0px; text-align: left;}
+	.boxteam .tea-prev{ left: 345px; top: 95%;}
+	.boxteam .tea-next{ right: 28px; top: 95%;}
+	
+	.history{ top: 50%;}
+	.smlHistory{ width: 416px;}
+	.smlHistory .hisbox{ position: initial; margin-bottom: 10px; left: auto !important; top: auto !important; width: 100%; max-width: 100%;}
+	.smlHistory .hisbox i{ display: none;}
+	
+
+	
+	.banners{ padding-top: 62%;}
+	.banners .scrent a{ width: 94px !important;}
+	.newContchs{width: 100%; margin-left: -50%; background-size: cover;}
+	.newContchs .centerConts{ width: 94%;}
+	.newContchs .centerConts .list{ text-align: center;}
+	.newContchs .centerConts .list img{ float: none; width: 300px; height: auto; display: inline-block;}
+	.newContchs .centerConts .list .ritextg{ float: none; width: 100%; text-align: left; margin-left: 0;}
+	.fy .tp a{ width: 130px; height: 35px; line-height: 35px;}
+	.fy p{ text-align: left; line-height: 1.7;}
+	.banners .screntTit h2{ font-size: 17px; padding: 0 10px; 
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+	
+	.workJob,
+	.manyLogo,
+	.contsabout{ width: 476px; margin-left: -238px;}
+	.contsabout img{ display: none;}
+	.contsabout .contUs{ padding-right: 0; padding-left: 15px;}
+	
+	.workJob{ top: 60%;}
+	.workJob .rightCont{ height: 400px;}
+	
+	.workJob .rightCont,
+	.workJob .leftTit{ float: left;}
+	
+	.workJob .rightCont{ width: 100%;}
+	.manyLogo a{ width: 33.33%;}
+		
+	.controlN,
+	.controlL,
+	.controlM{ height: auto !important;}
+	
+	.controlL .ourReams{ width: 94%; margin-left: -47%;  margin-top: 80px;}
+	.controlL .ourReams li{ width: 48%; margin-right: 2%;}
+	.controlL .ourReams li:nth-child(4n){ margin-right: auto;}
+	.controlL .ourReams li:nth-child(2n){ margin-right: 0%;}
+	
+	.controlM .starphoto2{width: 94%; margin-left: -47%;  margin-top: 80px;}
+	.controlM .starphoto2 .swiper-slide{ width: 48%; margin-right: 2%; margin-bottom: 2%;}
+	.controlM .starphoto2 .swiper-slide:nth-child(4n){ margin-right: auto;}
+	.controlM .starphoto2 .swiper-slide:nth-child(2n){ margin-right: 0%;}	
+	.controlM .starphoto2 .textg .neis{ width: 100%; height: auto !important;}
+	.controlM .starphoto2 .textg .neis i,
+	.controlM .starphoto2 .textg .neis p,
+	.controlM .starphoto2 .textg .neis em{ display: none;}
+	
+	.controlN .moviesPhoto2{width: 94%; margin-left: -47%;  margin-top: 80px;}
+	.controlN .moviesPhoto2 .swiper-slide{ width: 48%; margin-right: 4%; margin-bottom: 20px; padding-top: 80%; position: relative;}
+	.controlN .moviesPhoto2 .swiper-slide:nth-child(4n){ margin-right: auto;}
+	.controlN .moviesPhoto2 .swiper-slide:nth-child(2n){ margin-right: 0%;}
+	.moviesPhoto2 .swiper-slide .neislide{ position: absolute; left: 0; top: 0; height: 100%;}
+	
+	
+	.investoRemove{ width: 94%; margin-left: -47%; height: 300px; overflow-y: auto;}
+	.investoRemove li font{ margin-left: 0; line-height: 1.7;}
+	.investoRemove li time{ float: left;}
+	.fy{ padding-top: 20px;}
+	.starphoto2 .mores font.name small{ color: #fff;}
+	
+	.contch{ display: block;}
+	
+	.imglogo .text P strong{ margin-top: 4px;}
+	
+	
+	.starphoto2,
+	.moviesPhoto2{
+		transform: scale(0.9);
+		-webkit-transform: scale(0.9);
+		-moz-transform: scale(0.9);
+	}
+	.newContchs .centerConts,
+	.ourReams{
+		transform: scale(1.0);
+		-webkit-transform: scale(1.0);
+		-moz-transform: scale(1.0);	
+	}
+	.newContchs .centerConts .newslits p img{ width: 90%; height: auto; display: inline-block;}
+	
+	.fy .tp span{ display: none;}
+
+  .aboutclmax.active .aboutTxt{ height:175px;}
+	
+}
